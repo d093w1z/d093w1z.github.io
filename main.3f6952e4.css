@@ -15,6 +15,7 @@ body {
   margin: 0; }
 
 .logo {
+  position: relative;
   max-width: 8%;
   height: auto;
   border-radius: 50%;
@@ -34,6 +35,9 @@ body {
   outline: none;
   border-color: #9ecaed;
   box-shadow: 0 0 10px #9ecaed;
+}
+.sorry{
+  position: relative;
 }
 
 article,
@@ -279,7 +283,7 @@ body {
   font-size: 11px;
   line-height: 1.78;
   color: #000;
-  background-color: #000; }
+  background-color: #fff; }
 
 input,
 button,
@@ -361,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
-  color: #000; }
+  color: #2aabd2; }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -2994,7 +2998,7 @@ tbody.collapse.in {
 
 .navbar-toggle {
   position: relative;
-  float: right;
+  float: left;
   margin-right: 15px;
   padding: 9px 10px;
   margin-top: -7px;
@@ -3949,8 +3953,8 @@ body {
 
 .background-image-container {
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-repeat: repeat-x;
+  background-position: center left;
   overflow-y: scroll;
   top: 0; right: 0; bottom: 0; left: 0; }
 
